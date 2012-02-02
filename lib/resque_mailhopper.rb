@@ -1,0 +1,2 @@
+module ResqueMailhopper
+end
