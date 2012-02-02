@@ -1,6 +1,3 @@
-require 'mailhopper'
-require 'reqsue'
-
 module ResqueMailhopper
   class Email < Mailhopper::Email
     @queue = :mailer
@@ -8,9 +5,9 @@ module ResqueMailhopper
     after_create :async_send
 
     def self.perform(email_id)
-      Email.find(email_id).send!
+      Mailhopper::Email.find(email_id).send!
     end
-    
+
     def async_send
       Resque.enqueue(self.class, self.id)
     end
