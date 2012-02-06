@@ -28,7 +28,7 @@ $ rake db:migrate
 Start a worker
 ===
 ```
-$ QUEUE=mailer rake resque:work
+$ QUEUE=mailer rake environment resque:work
 ```
 
 References
