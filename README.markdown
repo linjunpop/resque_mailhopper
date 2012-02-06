@@ -3,6 +3,8 @@ ResqueMailhopper
 
 This project rocks and uses MIT-LICENSE.
 
+[![Build Status](https://secure.travis-ci.org/linjunpop/resque_mailhopper.png)](http://travis-ci.org/linjunpop/resque_mailhopper)
+
 Requirements
 ===
 
