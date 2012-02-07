@@ -20,6 +20,6 @@ Gem::Specification.new do |s|
   s.add_dependency "mailhopper", "~> 0.0.6"
   s.add_dependency "resque"
 
-  s.add_development_dependency "sqlite3"
   s.add_development_dependency "resque_unit"
+  s.add_development_dependency "pg"
 end
