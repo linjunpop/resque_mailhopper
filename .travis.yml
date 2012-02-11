@@ -2,5 +2,5 @@ language: ruby
 rvm:
   - 1.9.2
   - 1.9.3
-before_script:
-  - "psql -c 'create database resque_mailhopper_test;' -U postgres"
+before_script: "bundle exec rake db:migrate RAILS_ENV=test"
+script: "bundle exec rake spec"
