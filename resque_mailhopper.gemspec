@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.description = "ResqueMailhopper extends Mailhopper to deliver emails asynchronously with Resque."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.markdown"]
-  s.test_files = Dir["test/**/*"]
+  s.test_files = Dir["spec/**/*"]
 
   s.add_dependency "railties", "~> 3.1"
   s.add_dependency "mailhopper", "~> 0.0.6"
