@@ -10,7 +10,7 @@ module ResqueMailhopper
     def self.perform(email_id)
       Mailhopper::Email.find(email_id).send!
     end
-    
+
     private
 
     def async_send
