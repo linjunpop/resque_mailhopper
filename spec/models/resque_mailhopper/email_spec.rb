@@ -9,7 +9,7 @@ describe "ResqueMailhopper::Email" do
       ResqueSpec.reset!
     end
 
-    let(:email) { ResqueMailhopper::Email.new(from_address: 'from@example.com') }
+    let(:email) { ResqueMailhopper::Email.new(:from_address => 'from@example.com') }
 
     it "should add email to resque" do
       subject.save!
