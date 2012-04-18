@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.test_files = Dir["spec/**/*"]
 
   s.add_dependency "railties", "~> 3.1"
-  s.add_dependency "mailhopper", "~> 0.0.6"
+  s.add_dependency "mailhopper", "~> 0.1.0"
   s.add_dependency "resque"
 
   s.add_development_dependency "sqlite3", ">= 1.3.4"
