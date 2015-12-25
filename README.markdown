@@ -1,11 +1,13 @@
 ResqueMailhopper
 ---
 
+# :warning::warning::warning: This project is not maintained anymore
+
+---
+
 This project rocks and uses MIT-LICENSE.
 
 [![Build Status](https://secure.travis-ci.org/linjunpop/resque_mailhopper.png)](http://travis-ci.org/linjunpop/resque_mailhopper)
-
-[![Still Maintained](http://stillmaintained.com/linjunpop/resque_mailhopper.png)](http://stillmaintained.com/linjunpop/resque_mailhopper)
 
 Requirements
 ===
